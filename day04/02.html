@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+
+  <title>Bootstrap5 Day04-Bootstrap5格線的對齊與分佈-02</title>
+  <style type="text/css">
+    .kv {
+      width: 100%;
+      height: 100vh;
+      background-image: url("https://picsum.photos/1400/900?random=10");
+      background-size: cover;
+      background-color: #000;
+    }
+
+    .kv .text {
+      text-align: center;
+      color: #fff;
+      text-shadow: 0.1em 0.1em #000;
+    }
+
+    /* .kv .container {
+      height: 100%;
+    }
+
+    .kv .container>.row {
+      height: 100%;
+    } */
+  </style>
+</head>
+
+<body>
+  <!-- <img src="https://picsum.photos/1400/900?random=10" class="w-100"> -->
+  <div class="kv">
+    <div class="container h-100">
+      <div class="row h-100 justify-content-center align-items-center">
+        <div class="col-8 col-md-6">
+          <div class="text">
+            <h1>金魚都能懂的Bootstrap5</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam ipsam veniam dolorum dolor, eveniet
+              quidem quod pariatur. Esse aperiam nam illum quas consectetur sunt illo consequuntur ea, dolorem iusto
+              exercitationem!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
