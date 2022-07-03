@@ -64,6 +64,22 @@ https://ivesshe.github.io/Bootstrap5_GoldFish/
 
 ![image](./images/Xnip2022-07-03_11-28-35.jpg)
 
+# Day07 Bootstrap5 圖片與寬高尺寸控制
+
+[Day07 01](./day07/01.html)
+
+![image](./images/Xnip2022-07-03_11-55-15.jpg)
+
+[Day07 02](./day07/02.html)
+
+![image](./images/Xnip2022-07-03_11-57-25.jpg)
+
+[Day07 03](./day07/03.html)
+
+![image](./images/Xnip2022-07-03_11-55-50.jpg)
+
+![image](./images/Xnip2022-07-03_11-56-01.jpg)
+
 
 # 參考資料
 
