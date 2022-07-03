@@ -44,11 +44,25 @@ https://ivesshe.github.io/Bootstrap5_GoldFish/
 
 # Day05 Bootstrap5 格線排序控制
 
-[Day04 01](./day05/01.html)
+[Day05 01](./day05/01.html)
 
 ![image](./images/Xnip2022-07-03_10-54-32.jpg)
 
 ![image](./images/Xnip2022-07-03_10-54-20.jpg)
+
+# Day06 Bootstrap5 格線距離控制
+
+[Day06 01](./day06/01.html)
+
+![image](./images/Xnip2022-07-03_11-27-57.jpg)
+
+![image](./images/Xnip2022-07-03_11-28-06.jpg)
+
+[Day06 02 交錯排版](./day06/02.html)
+
+![image](./images/Xnip2022-07-03_11-28-21.jpg)
+
+![image](./images/Xnip2022-07-03_11-28-35.jpg)
 
 
 # 參考資料
