@@ -80,6 +80,12 @@ https://ivesshe.github.io/Bootstrap5_GoldFish/
 
 ![image](./images/Xnip2022-07-03_11-56-01.jpg)
 
+# Day08 Bootstrap5 共用項目margin與padding-
+
+[Day07 01](./day07/01.html)
+
+![image](./images/Xnip2022-07-03_11-55-15.jpg)
+
 
 # 參考資料
 
