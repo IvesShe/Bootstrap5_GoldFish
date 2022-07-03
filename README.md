@@ -82,10 +82,11 @@ https://ivesshe.github.io/Bootstrap5_GoldFish/
 
 # Day08 Bootstrap5 共用項目margin與padding-
 
-[Day07 01](./day07/01.html)
+[Day08 01](./day08/01.html)
 
-![image](./images/Xnip2022-07-03_11-55-15.jpg)
+![image](./images/Xnip2022-07-03_19-37-21.jpg)
 
+![image](./images/Xnip2022-07-03_19-37-26.jpg)
 
 # 參考資料
 

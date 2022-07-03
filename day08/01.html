@@ -11,19 +11,33 @@
 
   <title>Day08 Bootstrap5 共用項目margin與padding 01</title>
   <style type="text/css">
-    /* .box {
-      width: 100px;
-    } */
+    .text {
+      background-color: #ffa;
+    }
+
+    @media screen and (min-width: 768px) {
+      .pic-card .col-12:last-child {
+        margin-top: -100px;
+      }
+    }
   </style>
 </head>
 
 <body>
-  <div class="box">
-    <img src="https://picsum.photos/300/100?random=20" class="img-fluid">
-  </div>
-
-  <div class="box">
-    <img src="https://picsum.photos/300/100?random=21" class="img-thumbnail">
+  <div class="container pic-card">
+    <div class="row">
+      <div class="col-12 col-md-7 mb-2 mb-md-0">
+        <img src="https://picsum.photos/300/150?random=30" class="w-100 img-thumbnail">
+      </div>
+      <div class="col-12 col-md-7 ms-auto ">
+        <div class="text p-4">
+          <h3>金魚都能懂的Bootstrap5</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maxime minus voluptatem aperiam
+            consequuntur, enim, voluptate molestias quisquam quasi ipsum est ipsa repellendus dolorum hic repudiandae et
+            cum! Saepe, sint.</p>
+        </div>
+      </div>
+    </div>
   </div>
 
 
