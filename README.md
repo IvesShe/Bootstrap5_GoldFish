@@ -42,6 +42,15 @@ https://ivesshe.github.io/Bootstrap5_GoldFish/
 
 ![image](./images/Xnip2022-07-02_20-52-50.jpg)
 
+# Day05 Bootstrap5 格線排序控制
+
+[Day04 01](./day05/01.html)
+
+![image](./images/Xnip2022-07-03_10-54-32.jpg)
+
+![image](./images/Xnip2022-07-03_10-54-20.jpg)
+
+
 # 參考資料
 
 https://getbootstrap.com/docs/5.0/getting-started/introduction/
