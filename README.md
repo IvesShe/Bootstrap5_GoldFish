@@ -146,6 +146,12 @@ https://ivesshe.github.io/Bootstrap5_GoldFish/
 
 ![image](./images/Xnip2022-07-04_20-21-14.jpg)
 
+# Day15 Bootstrap5 Display之顯示/隱藏/屬性控制
+
+[Day15 01](./day15/01.html)
+
+![image](./images/Xnip2022-07-04_20-37-47.jpg)
+
 # 參考資料
 
 https://getbootstrap.com/docs/5.0/getting-started/introduction/
