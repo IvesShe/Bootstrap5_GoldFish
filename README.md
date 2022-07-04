@@ -134,6 +134,18 @@ https://ivesshe.github.io/Bootstrap5_GoldFish/
 
 ![image](./images/Xnip2022-07-04_17-41-33.jpg)
 
+# Day14 Bootstrap5 分頁導覽輕鬆做
+
+[Day14 01](./day14/01.html)
+
+![image](./images/Xnip2022-07-04_20-21-30.jpg)
+
+[Day14 02](./day14/02.html)
+
+![image](./images/Xnip2022-07-04_20-21-07.jpg)
+
+![image](./images/Xnip2022-07-04_20-21-14.jpg)
+
 # 參考資料
 
 https://getbootstrap.com/docs/5.0/getting-started/introduction/
