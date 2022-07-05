@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+
+  <title>Day18 Bootstrap5 Modal光箱效果太Easy 01</title>
+  <style type="text/css">
+
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">登入</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Button trigger modal -->
+  <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button> -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen-xl-down">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus explicabo fugit quidem laudantium ex,
+            sapiente, neque veniam ullam magni, vitae accusamus. Ratione sapiente, explicabo eum quae quas doloremque
+            sed quaerat?</p>
+          <p>Vero laudantium soluta dolor sapiente molestias, eius aspernatur. Quo fuga amet tempore totam veritatis!
+            Ipsam provident aspernatur consectetur fugit eaque, autem, sint nam harum beatae nostrum possimus, molestiae
+            quia fugiat!</p>
+          <p>Dicta pariatur unde nihil, magni eius id. Harum nesciunt illo alias optio quisquam? Error, cum. At, eaque!
+            Praesentium consequatur sapiente magnam sed facere nihil officia? Itaque, dolore ratione. Omnis, numquam?
+          </p>
+          <p>Corporis omnis sint doloribus ipsa maiores voluptas debitis nisi illum vel fugiat quisquam at sed aliquam
+            nulla illo quos laboriosam beatae iste impedit magnam mollitia dolorem, eveniet vero? Quos, ullam.</p>
+          <p>Eligendi blanditiis adipisci atque expedita similique animi odit aliquam dolore hic, tempore voluptates.
+            Sequi obcaecati rem in voluptatem saepe voluptate! Dolor doloremque placeat in odio unde earum architecto
+            pariatur non?</p>
+          <p>Quam quos eos repellendus quis maxime possimus recusandae perferendis provident itaque magni harum,
+            necessitatibus sed unde aut deleniti temporibus explicabo impedit, maiores dolore omnis amet quasi
+            laboriosam expedita eius. Voluptas!</p>
+          <p>Impedit corporis voluptatibus iste sit corrupti itaque, vitae officia dolorem quia ut fuga odio quo
+            aspernatur quae beatae sunt a necessitatibus libero ipsam hic ipsa veniam? Laudantium quibusdam quia ipsa.
+          </p>
+          <p>Minus modi excepturi quae, laborum assumenda quidem blanditiis non est corporis eaque commodi ea voluptatum
+            perspiciatis itaque provident. Alias, nesciunt enim numquam quaerat pariatur corporis sed ullam molestiae
+            officia quo?</p>
+          <p>Dolores commodi blanditiis, saepe cupiditate quos eveniet assumenda error labore ullam quod ipsum magni!
+            Vel vitae delectus repellendus, odio similique, autem repudiandae hic, ex doloribus a perspiciatis?
+            Deleniti, eligendi sed!</p>
+          <p>Eaque impedit dicta eius voluptate unde ea hic praesentium facere inventore placeat eveniet aliquam iusto,
+            error consequatur earum sequi fugiat maiores nihil voluptatum quam molestias, consequuntur soluta velit
+            doloremque? Officiis!</p>
+          <p>Ipsa molestiae itaque dignissimos assumenda necessitatibus neque suscipit odit expedita voluptas cum? Esse
+            omnis laboriosam ipsum iusto. Ipsam, recusandae sit! Omnis itaque incidunt possimus excepturi maxime dolore
+            libero ducimus eveniet.</p>
+          <p>Repellendus nulla est eveniet sunt dolore corrupti! Cumque animi totam qui dolorem voluptatibus quis
+            nesciunt dignissimos possimus iste? Expedita, nam aspernatur inventore quas voluptatem quos qui provident
+            officia hic perferendis.</p>
+          <p>Obcaecati reiciendis voluptates, laboriosam quae porro nobis facilis sunt error minus, ducimus sit itaque
+            deleniti? Necessitatibus exercitationem ipsum nesciunt a unde dolorum voluptatem, blanditiis, molestiae
+            quibusdam eos odit! Dolor, reprehenderit.</p>
+          <p>Obcaecati veritatis mollitia a inventore molestiae soluta laborum modi pariatur sapiente quae veniam
+            necessitatibus tempore, minima delectus quasi iusto eveniet, nam dicta commodi neque corporis! Laudantium,
+            asperiores! Culpa, eaque accusamus.</p>
+          <p>Molestiae quaerat laboriosam eius quae possimus tenetur sunt tempore iste veritatis recusandae! Aperiam,
+            molestiae minus quibusdam dolor nam illo. Sunt assumenda consequatur, error molestiae eum officiis accusamus
+            unde ducimus aut?</p>
+          <p>Quidem repellendus fugiat voluptatem vitae minus voluptatum, laudantium possimus in consequuntur
+            perferendis nihil nisi ullam, et magnam ipsum saepe a culpa nobis at ratione? Voluptate laudantium nesciunt
+            obcaecati fuga voluptatum.</p>
+          <p>Itaque ullam maxime facilis quidem eaque, fugit sapiente sed laborum numquam ut quis velit molestiae neque!
+            Porro alias soluta excepturi fugiat quae, iure quaerat eveniet illo veniam, amet harum! Corrupti.</p>
+          <p>Ab dolorum optio assumenda deleniti repellendus commodi voluptate, accusantium porro culpa fugiat cum
+            necessitatibus quod, sequi laborum beatae ipsum temporibus obcaecati dolores placeat libero eveniet quae in!
+            Aliquid, repellendus error?</p>
+          <p>Magnam maiores fuga, ut ex explicabo ipsum deserunt illum ipsa veniam at, exercitationem reiciendis unde
+            rem, consequatur nemo earum debitis! Nostrum recusandae unde voluptas harum ipsum magnam quas. Dolorem,
+            consectetur.</p>
+          <p>Unde dolor, voluptatibus sapiente libero optio nesciunt ut cupiditate. Qui non ex voluptatibus, pariatur
+            odit nostrum amet dolorem cupiditate ut numquam voluptates expedita voluptatem itaque nam explicabo
+            similique in minus.</p>
+          <p>Temporibus labore quisquam ab optio quasi dolore! Placeat dolore nisi autem voluptatem ullam atque!
+            Corporis similique, maxime consequuntur sunt minima, veritatis quasi eligendi sequi, quam doloremque nihil.
+            Quasi, eum magni?</p>
+          <p>Aspernatur deserunt cumque laboriosam provident pariatur molestias soluta voluptas quam doloremque, hic
+            tempore ducimus incidunt. Natus iusto eveniet ut, totam, eum dolores possimus amet fugit eius blanditiis
+            quasi? Ipsum, officia?</p>
+          <p>Pariatur perspiciatis optio quia perferendis recusandae! Nulla, quod reiciendis architecto repellat ullam
+            quisquam optio perspiciatis, illo dolor libero animi possimus iure adipisci ea iusto perferendis minus
+            laudantium sed ut. In!</p>
+          <p>Cumque optio autem voluptates distinctio mollitia, nisi ad debitis id laborum sequi illo fuga tempore
+            sapiente odio corrupti fugit nobis expedita magnam laboriosam! Necessitatibus repellendus obcaecati
+            consequuntur nisi numquam consectetur.</p>
+          <p>Non eaque dolorum laboriosam voluptates voluptate. Iste ex, repudiandae maiores provident modi, odio
+            tempore cupiditate quis facilis dolorum fugiat corporis quidem neque culpa tenetur rem quibusdam animi vitae
+            quasi ut.</p>
+          <p>Consectetur repellendus facere rem velit. Assumenda eligendi eius voluptas nihil temporibus a, aperiam
+            delectus ipsam vero consectetur at dolore iure praesentium ipsa impedit neque animi enim sapiente magni
+            harum cum?</p>
+          <p>Repellendus saepe ratione iste quam corrupti iusto eius ab cumque et veritatis vitae quasi recusandae,
+            rerum atque modi non itaque voluptatibus veniam. Quisquam autem ullam tempora! Soluta repudiandae repellat
+            quisquam.</p>
+          <p>Nostrum, aliquam delectus. Fugit, perferendis? Temporibus impedit atque aperiam reiciendis consectetur.
+            Quaerat, iure officiis dolore temporibus omnis laborum. Distinctio iusto provident non nulla laborum eum
+            voluptates quaerat maxime ducimus voluptatibus.</p>
+          <p>Pariatur a perspiciatis autem incidunt quidem officia eum libero nostrum aliquid distinctio molestiae et
+            nesciunt eligendi maiores quasi nisi non eius, fuga sit amet? Officia laudantium consequatur fugiat voluptas
+            accusantium.</p>
+          <p>Animi temporibus fuga aut sit asperiores accusamus, itaque ea praesentium sed corporis eaque laboriosam
+            cupiditate enim distinctio corrupti, voluptate ratione accusantium rem quis dignissimos cumque est quos
+            fugit! Soluta, doloremque?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

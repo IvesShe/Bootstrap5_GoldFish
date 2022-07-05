@@ -166,6 +166,14 @@ https://ivesshe.github.io/Bootstrap5_GoldFish/
 
 ![image](./images/Xnip2022-07-05_11-22-02.jpg)
 
+# Day18 Bootstrap5 Modal光箱效果太Easy
+
+[Day18 01](./day18/01.html)
+
+![image](./images/Xnip2022-07-05_11-50-46.jpg)
+
+![image](./images/Xnip2022-07-05_11-50-57.jpg)
+
 # 參考資料
 
 https://getbootstrap.com/docs/5.0/getting-started/introduction/
