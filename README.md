@@ -156,7 +156,9 @@ https://ivesshe.github.io/Bootstrap5_GoldFish/
 
 [Day16 01](./day16/01.html)
 
-![image](./images/Xnip2022-07-04_20-37-47.jpg)
+![image](./images/Xnip2022-07-05_10-16-52.jpg)
+
+![image](./images/Xnip2022-07-05_10-17-00.jpg)
 
 # 參考資料
 
