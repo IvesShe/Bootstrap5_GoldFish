@@ -184,7 +184,13 @@ https://ivesshe.github.io/Bootstrap5_GoldFish/
 
 [Day20 01](./day20/01.html)
 
-![image](./images/Xnip2022-07-05_15-31-30.jpg)
+![image](./images/Xnip2022-07-05_15-51-36.jpg)
+
+# Day21 Bootstrap5 共用項目color知多少
+
+[Day21 01](./day21/01.html)
+
+![image](./images/Xnip2022-07-05_15-51-36.jpg)
 
 # 參考資料
 
