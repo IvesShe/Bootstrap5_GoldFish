@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+
+  <title>Day19 Bootstrap5 Tooltip與Popover提示訊息 01</title>
+  <style type="text/css">
+
+  </style>
+</head>
+
+<body>
+  <h1>Tooltips</h1>
+  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom"
+    title="金魚都能懂的Tooltip">
+    Tooltip on bottom
+  </button>
+
+  <br />
+  <br />
+  <br />
+  <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="金魚都能懂的BS教學"
+    data-bs-content="Tooltips and Popovers">Click to toggle popover</button>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+  </script>
+  <script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl)
+    })
+  </script>
+</body>
+
+</html>
