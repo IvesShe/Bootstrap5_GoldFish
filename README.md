@@ -160,6 +160,12 @@ https://ivesshe.github.io/Bootstrap5_GoldFish/
 
 ![image](./images/Xnip2022-07-05_10-17-00.jpg)
 
+# Day17 Bootstrap5 幻燈片製作無困難
+
+[Day17 01](./day17/01.html)
+
+![image](./images/Xnip2022-07-05_11-22-02.jpg)
+
 # 參考資料
 
 https://getbootstrap.com/docs/5.0/getting-started/introduction/
