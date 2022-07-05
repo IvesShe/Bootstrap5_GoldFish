@@ -190,7 +190,7 @@ https://ivesshe.github.io/Bootstrap5_GoldFish/
 
 [Day21 01](./day21/01.html)
 
-![image](./images/Xnip2022-07-05_15-51-36.jpg)
+![image](./images/Xnip2022-07-05_21-08-37.jpg)
 
 # 參考資料
 
