@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+
+  <title>Day22 Bootstrap5 共用項目overflow 01</title>
+  <style type="text/css">
+    .wrap {
+      width: 200px;
+      height: 200px;
+    }
+
+    .pic {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+    }
+
+    .pic img {
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Day22 Bootstrap5 共用項目overflow</h1>
+  <div class="wrap bg-info overflow-hidden">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, mollitia voluptas hic molestias sunt
+      quisquam nemo illum officia repellat veniam pariatur officiis, unde ipsa. Corrupti corporis quo minus neque
+      repellendus.</p>
+  </div>
+  <div class="pic overflow-hidden">
+    <img src="https://picsum.photos/200/300?random=44" class="w-100 h-100">
+  </div>
+  <!-- <div class="overflow-auto">...</div>
+  <div class="overflow-hidden">...</div>
+  <div class="overflow-visible">...</div>
+  <div class="overflow-scroll">...</div> -->
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
