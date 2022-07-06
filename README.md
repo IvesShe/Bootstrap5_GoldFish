@@ -222,6 +222,12 @@ https://ivesshe.github.io/Bootstrap5_GoldFish/
 
 ![image](./images/Xnip2022-07-06_16-04-47.jpg)
 
+# Day27 Bootstrap5 輸入群組組件
+
+[Day27 01](./day27/01.html)
+
+![image](./images/Xnip2022-07-06_16-19-45.jpg)
+
 # 參考資料
 
 https://getbootstrap.com/docs/5.0/getting-started/introduction/
