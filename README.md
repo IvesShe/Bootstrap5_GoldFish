@@ -234,6 +234,40 @@ https://ivesshe.github.io/Bootstrap5_GoldFish/
 
 ![image](./images/Xnip2022-07-06_20-02-00.jpg)
 
+# Day29 Bootstrap5 神速改出專屬你的 Bootstrap
+
+[Day29 01](./day29/01.html)
+
+安裝外掛
+
+![image](./images/Xnip2022-07-06_20-08-45.jpg)
+
+啟動外掛、修改原始碼、存檔
+
+![image](./images/Xnip2022-07-06_20-20-41.jpg)
+
+使用新編譯出來的Bootstrap.css
+
+```html
+<div class="container pic-card">
+    <div class="row">
+      <div class="col-12 col-md-7 mb-2 mb-md-0">
+        <img src="https://picsum.photos/300/150?random=30" class="w-100 img-thumbnail">
+      </div>
+      <div class="col-12 col-md-7 ms-auto ">
+        <div class="text p-4">
+          <h3>金魚都能懂的Bootstrap5</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maxime minus voluptatem aperiam
+            consequuntur, enim, voluptate molestias quisquam quasi ipsum est ipsa repellendus dolorum hic repudiandae et
+            cum! Saepe, sint.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+```
+
+![image](./images/Xnip2022-07-06_20-20-10.jpg)
+
 # 參考資料
 
 https://getbootstrap.com/docs/5.0/getting-started/introduction/
