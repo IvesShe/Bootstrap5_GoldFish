@@ -228,6 +228,12 @@ https://ivesshe.github.io/Bootstrap5_GoldFish/
 
 ![image](./images/Xnip2022-07-06_16-19-45.jpg)
 
+# Day28 Bootstrap5 Checkbox 與 Radio 組件
+
+[Day28 01](./day28/01.html)
+
+![image](./images/Xnip2022-07-06_20-02-00.jpg)
+
 # 參考資料
 
 https://getbootstrap.com/docs/5.0/getting-started/introduction/
