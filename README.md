@@ -216,6 +216,12 @@ https://ivesshe.github.io/Bootstrap5_GoldFish/
 
 ![image](./images/Xnip2022-07-06_15-46-44.jpg)
 
+# Day26 Bootstrap5 選取組件與檔案組件
+
+[Day26 01](./day26/01.html)
+
+![image](./images/Xnip2022-07-06_16-04-47.jpg)
+
 # 參考資料
 
 https://getbootstrap.com/docs/5.0/getting-started/introduction/
